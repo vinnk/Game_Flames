@@ -1,5 +1,6 @@
 package Flame;
 import java.util.*;
+import java.io.*;
 
 public class Flames {
 	
@@ -78,7 +79,23 @@ public class Flames {
 	public static void main(String[] args) {
 		Scanner in= new Scanner(System.in);
 		
-		System.out.print("Person 1 : ");
+		try {
+			System.out.print("\n\n\t\t\t\t\t\t\t\t\t\t");
+			System.out.print("F");
+			Thread.sleep(1000);
+			System.out.print("L");
+			Thread.sleep(1000);
+			System.out.print("A");
+			Thread.sleep(1000);
+			System.out.print("M");
+			Thread.sleep(1000);
+			System.out.print("E");
+			Thread.sleep(1000);
+			System.out.println("S");
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+		System.out.print("\nPerson 1 : ");
 		String name1= in.next();
 		System.out.print("Person 2 : ");
 		String name2= in.next();
